@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import Movie from './Movie';
+import selectMovies from '../selector/movies';
 
 const MoviesList = (props) => {
     return (
@@ -25,7 +26,8 @@ const MoviesList = (props) => {
 
 const mapStateToProps = (state) => {
     return {
-      movies: state.movies
+      movies: selectMovies(state.movies, state.filter),
+      filter: state.filter
     }
 }
 

@@ -8,6 +8,7 @@ import './styles/styles.scss';
 import 'react-dates/lib/css/_datepicker.css';
 import LoadingPage from './components/LoadingPage';
 import { startLoadingMovieDetails, dataFetched } from './actions/movies';
+import { setTextFilter } from './actions/filter';
 
 const store = configureStore();
 
@@ -18,7 +19,7 @@ const jsx = (
 )
 
 const renderApp = () => {
-    console.log(store.getState().movies.length);
+    //console.log(store.getState().movies.length);
     if (store.getState().movies.length == 249) {
         ReactDOM.render(jsx, document.getElementById("app"));
         unsubscribe();
