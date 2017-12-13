@@ -9,8 +9,29 @@
 
     .header__wrapper {
         height: 100%;
-        max-width: 1450px;
+        //max-width: 1450px;
         margin: 0 auto;
+
+        @media (max-width:1920px) {
+            max-width: 1456px;
+        }
+    
+        @media (max-width:1450px) {
+            max-width: 1160px;
+        }
+    
+        @media (max-width:1160px) {
+            max-width: 870px;
+        }
+    
+        @media (max-width:870px) {
+            max-width: 580px;
+        }
+    
+        @media (max-width:580px) {
+            max-width: 300px;
+            max-width: 580px;
+        }
     }
 }
 
@@ -19,15 +40,25 @@
     float: left;
     height: 100%;
     text-align: left;
-    min-width: 50px;
+    padding-left: 10px;
+
+    @media (max-width:870px) {
+        width: 150px;
+    }
+}
+
+.header__image {
+    float: left;
+    padding: 10px 5px;
+    margin-top: 10px;
 }
 
 .header__title {
     margin: 0;
     height: 100%;
-    padding: 10px;
+    padding: 14px;
     font-weight: 350;
-    font-size: 3rem;
+    font-size: 25px;
 }
 
 .red {
@@ -42,6 +73,10 @@
     width: 75%;
     height: 100%;
     float: right;
+
+    @media (max-width:870px) {
+        width: 50%;
+    }
 
     &:after {
         background-color: #FF3940;
@@ -84,9 +119,31 @@
 .page-container {
     margin: 0 auto;
     overflow: hidden;
-    max-width: 1450px;
+    
     padding-top: 90px;
+
+    @media (max-width:1920px) {
+        max-width: 1456px;
+    }
+
+    @media (max-width:1450px) {
+        max-width: 1160px;
+    }
+
+    @media (max-width:1160px) {
+        max-width: 870px;
+    }
+
+    @media (max-width:870px) {
+        max-width: 580px;
+    }
+
+    @media (max-width:580px) {
+        max-width: 300px;
+    }
 }
+
+
 
 .page-content-header {
     margin-bottom: 20px;
@@ -103,25 +160,12 @@
     }
 }
 
-.page-content {
-
-}
-
 .card-display {
-    height: 500px;
+    height: 470px;
     width: 250px;
     float: left;
     margin: 20px;
     min-width: 250px;
-    //border: 1px solid white;
-}
-
-.card {
-
-}
-
-.poster {
-
 }
 
 .card-img {
@@ -131,7 +175,7 @@
 
 .card-rating {
     width: 65px;
-    background-color: yellow;
+    background: linear-gradient(180deg, #FFF96B 0%, #FFD739 100%);
     color: black;
     border-radius: 20px;
     text-align: center;
@@ -145,22 +189,35 @@
 }
 
 .card-title {
-    height: 65px;
+    margin-bottom: 15px;
+    margin-top: -8px;
+    
     h3 {
         margin: 0;
-        font-size: 17PX;
+        font-size: 16px;
         font-weight: 300;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
     }
 }
 
 .card-button {
-    background-color: red;
-    color: white;
     height: 35px;
-    font-size: 14px;
-    padding: 10px 15px 15px 15px;
-    border: none;
+    padding: 8px 15px;
+    border: 1px solid grey;
     border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    transition-duration: 0.2s;
+
+    &:hover {
+        background-color: red;
+        border-color: transparent;
+    }
+    
+    
 }
 
 .loader {

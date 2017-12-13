@@ -8,7 +8,7 @@ const MoviesList = (props) => {
         <div>
             <div className="page-content-header">
                 <h2 className="">Best of IMDB on Netflix
-                    <span>50 of the best rated movies of all time you can watch on Netflix</span>
+                    <span>Best rated movies of all time you can watch on Netflix</span>
                 </h2>
             </div>
             <div className="page-content">

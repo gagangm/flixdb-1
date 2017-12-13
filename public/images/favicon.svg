@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="23px" viewBox="0 0 24 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 15</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F5515F" offset="0%"></stop>
+            <stop stop-color="#9F041B" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFF96B" offset="0%"></stop>
+            <stop stop-color="#FFD739" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="flixdb" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-32.000000, -16.000000)">
+        <g id="Group" transform="translate(32.000000, 13.000000)" fill-rule="nonzero">
+            <g id="Group-15" transform="translate(0.000000, 3.000000)">
+                <g id="halfrating">
+                    <path d="M11.8468235,0 C11.76,0 11.6738824,0.10278125 11.6075294,0.30978125 L9.19341176,7.88828125 C9.06211765,8.30228125 8.60470588,8.64009375 8.17976471,8.64009375 L0.368470588,8.64009375 C-0.0578823529,8.64009375 -0.124235294,8.84925 0.220941176,9.1036875 L6.53929412,13.7877813 C6.88376471,14.044375 7.05811765,14.590625 6.92682353,15.0031875 L4.51270588,22.5809688 C4.38282353,22.9935313 4.55647059,23.123625 4.90023529,22.86775 L11.22,18.1836563 C11.3922353,18.0564375 11.6195294,17.9924688 11.8461176,17.9924688 L11.8461176,0 L11.8468235,0 Z" id="Shape" fill="url(#linearGradient-1)"></path>
+                    <path d="M23.8468235,0 C23.76,0 23.6738824,0.10278125 23.6075294,0.30978125 L21.1934118,7.88828125 C21.0621176,8.30228125 20.6047059,8.64009375 20.1797647,8.64009375 L12.3684706,8.64009375 C11.9421176,8.64009375 11.8757647,8.84925 12.2209412,9.1036875 L18.5392941,13.7877813 C18.8837647,14.044375 19.0581176,14.590625 18.9268235,15.0031875 L16.5127059,22.5809688 C16.3828235,22.9935313 16.5564706,23.123625 16.9002353,22.86775 L23.22,18.1836563 C23.3922353,18.0564375 23.6195294,17.9924688 23.8461176,17.9924688 L23.8461176,0 L23.8468235,0 Z" id="Shape-Copy" fill="url(#linearGradient-2)" transform="translate(17.923332, 11.499509) scale(-1, 1) translate(-17.923332, -11.499509) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

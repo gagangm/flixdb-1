@@ -1,12 +1,8 @@
 import React from 'react';
 
 
-const onButtonClick = () => {
-    console.log('clicked');
-}
-
-
 const Movie = ({id, title, rating, poster}) => {
+    const path = "https://www.netflix.com/search?q=" + title;
     return (
         <div className="card-display">
             <div className="card">
@@ -19,7 +15,7 @@ const Movie = ({id, title, rating, poster}) => {
                 <div className="card-title">
                     <h3>{ title }</h3>
                 </div>
-                <button className="card-button" onClick={onButtonClick}>Watch on Netflix</button>
+                <a className="card-button" href={path}>Watch on Netflix</a>
             </div>
 
         </div>
