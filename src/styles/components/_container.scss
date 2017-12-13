@@ -2,3 +2,47 @@
   margin: 0;
   padding: 0;
 }
+
+.page-container {
+  margin: 0 auto;
+  overflow: hidden;
+  
+  padding-top: 90px;
+
+  @media (max-width:1920px) {
+      max-width: 1456px;
+  }
+
+  @media (max-width:1450px) {
+      max-width: 1160px;
+  }
+
+  @media (max-width:1160px) {
+      max-width: 870px;
+  }
+
+  @media (max-width:870px) {
+      max-width: 580px;
+  }
+
+  @media (max-width:580px) {
+      max-width: 300px;
+  }
+}
+
+
+
+.page-content-header {
+  margin-bottom: 20px;
+  h2 {
+      font-size: 2rem;
+      font-weight: 400;
+      margin-left: 20px;
+  }
+
+  span {
+      padding-left: 20px;
+      color: #606C77;
+      font-size: 14px;
+  }
+}

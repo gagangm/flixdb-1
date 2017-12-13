@@ -1,9 +1,9 @@
 import React from 'react';
-import Header from './Header';
-
+import HeaderLoader from './HeaderLoader';
 
 const LoadingPage = () => (
   <div>
+    <HeaderLoader />
     <div className="loader">
       <img className="loader__image" src="/images/loader.gif" />
     </div>
